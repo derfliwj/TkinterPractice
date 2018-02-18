@@ -37,6 +37,7 @@ def main():
     print_entry_button = ttk.Button(frame1, text='Print entry')
     print_entry_button['command'] = (lambda:
                                      print_contents(my_entry_box))
+
     print_entry_button.grid()
 
     root.mainloop()
